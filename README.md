@@ -13,6 +13,7 @@ Vagrant é uma ferramenta para construir e gerenciar ambientes de máquinas virt
 - **Comando via CLI**
 
 [Vagrant Site](https://developer.hashicorp.com/vagrant)
+[Vagrant and Windows Subsystem for Linux - WSL](https://developer.hashicorp.com/vagrant/docs/other/wsl)
 
 #### Arquitetura
 
