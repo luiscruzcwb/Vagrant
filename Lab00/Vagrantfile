@@ -25,6 +25,3 @@ end
 
 
 
-#vagrant init
-#vagrant up
-#vagrant ssh vm.hostname
