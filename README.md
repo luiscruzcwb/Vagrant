@@ -21,6 +21,7 @@ Vagrant é uma ferramenta para construir e gerenciar ambientes de máquinas virt
 
 #### Comandos
 
+- **vagrnat --version**
 - **vagrant init**
 - **vagrant up**
 - **vagrant ssh vm.hostname**
@@ -29,3 +30,16 @@ Vagrant é uma ferramenta para construir e gerenciar ambientes de máquinas virt
 
 - vagrant plugin install vagrant-aws
 - vagrant plugin list
+- vagrant plugin install vagrant-vbguest --plugin-version 0.21
+
+#### Pontos de Atenção
+
+- Configuarar o .gitignore para ignorar o diretório .vagrant
+
+- O Comando **vagrant destroy** apaga apenas a machina, e não a **box** (arquivo local)
+
+- Toda alteração no script de provisionamento, deve ser seguida de **destroy** e **up**
+
+- Alterações que não alteram o provionamento, pode se executar apenas o **vagrant reload**
+
+- Instalar o módulo **vbguest**
